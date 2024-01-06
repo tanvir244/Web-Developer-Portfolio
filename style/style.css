@@ -62,9 +62,9 @@ nav a {
 /* header related style */
 .header {
     background-color: #FFF8F3;
-    background-image: url(../images/header_bg.png);
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, left top;
 }
 
 .banner {
@@ -163,6 +163,9 @@ main section {
 }
 .resume-container hr{
     margin: 30px;
+}
+.download-cv{
+    text-align: center;
 }
 
 /* footer style */
